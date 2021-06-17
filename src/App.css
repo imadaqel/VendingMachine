@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+
+}
+
+
+.displayKey p{
+  text-align: center;
+  background-color: rgb(2, 250, 176);
+}
+
+.screen{
+  float: right;
+  width: 400px;
+  height: 200px;
+  margin-top: 50px;
+  background-color: rgb(200, 211, 208);
+  overflow: scroll;
+}

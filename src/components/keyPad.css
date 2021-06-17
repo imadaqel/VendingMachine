@@ -1,0 +1,62 @@
+.container{
+    display: grid;
+    width: 900px !important;
+    grid-template-columns: repeat(5,20%);
+    /* margin: 0 auto; */
+}
+.keypadContainer{
+    clear: right;
+    float:right;
+    width: 400px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+    background-color: rgb(2, 250, 176);
+}
+.NoteSlot{
+    margin-top: 20px;
+}
+.NoteSlot button{
+    border-radius: 50px;
+    margin-left: 10px;
+    width:155px;
+
+}
+.CreditCard{
+    margin-top: 20px;
+}
+.coin button{
+    border-radius: 50px;
+    width:80px;
+}
+.keypadContainer button{
+    background-color: rgb(76, 2, 250);
+}
+.keypadContainer button:hover{
+    background-color: #ffffff;
+     color: #000000;
+}
+
+.subButtons{
+    /* background-color: rgb(76, 2, 250); */
+    display:flex;
+    width: 400px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.subButtons button{
+    background-color: rgb(76, 2, 250);
+}
+.coinsContainer{
+    float: right;
+    width: 400px;
+    margin-top: 50px;
+
+}
+
+.container{
+    float: left;
+
+}
