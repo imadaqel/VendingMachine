@@ -34,11 +34,9 @@ class App extends Component {
     subKey=({selectedSnak})=>{
       if(this.state.enteredKey>25 ||this.state.enteredKey==='')this.setState({screenAlarms:[...this.state.screenAlarms,`There is no product with this id`]})
         else{
-          // console.log(`The item ${e.selectedSnak[1]} is available with price of ${e.selectedSnak[3]}$`);
           this.setState({screenAlarms:[...this.state.screenAlarms,`This item is ${selectedSnak[1]} with price of ${selectedSnak[3]}$`]})
         }}
   subOrder=(e)=>{
-  // console.log(e.selectedSnak);
     if(this.state.enteredKey>25 ||this.state.enteredKey==='')this.setState({screenAlarms:[...this.state.screenAlarms,`There is no product with this id`]})
     else if(e.selectedSnak[3]>this.state.cash)this.setState({screenAlarms:[...this.state.screenAlarms,`There is no enough money`]})
     else{

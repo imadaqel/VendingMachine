@@ -1,12 +1,10 @@
 import React,{Component} from 'react';
-// import SnakSlots from './snakSlots';
 
  export default class Coins extends Component{
    state={
     creditcard:0,
    }
     changeCreditCard=(e)=>{
-        // e.preventDefault()
         this.setState({creditcard:+e.target.value}
             )}
     render(){
@@ -14,7 +12,6 @@ import React,{Component} from 'react';
         var NoteSlot=[20,50];
         console.log(this.state.creditcard)
         return(
-            <>
                 <div className="coinsContainer">
                     <div className="coin">
                         {coinSlots.map((number) =>
@@ -33,7 +30,6 @@ import React,{Component} from 'react';
                         <button onClick={()=>{this.props.handleCash({money:this.state.creditcard})}} className="card-submit">Submit cash</button>
                     </div>
                 </div>
-          </>
          )}
 
 }
