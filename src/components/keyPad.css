@@ -1,8 +1,12 @@
 .container{
     display: grid;
     width: 900px !important;
-    grid-template-columns: repeat(5,20%);
+    grid-template-columns: repeat(5,18%);
     /* margin: 0 auto; */
+    background-color: darkgrey;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+
 }
 .keypadContainer{
     clear: right;
@@ -12,6 +16,7 @@
     display: grid;
     grid-template-columns: repeat(3,33.3%);
     background-color: rgb(2, 250, 176);
+    
 }
 .NoteSlot{
     margin-top: 20px;

@@ -9,8 +9,7 @@ export default class KeyPad extends Component{
             <div className="keypadContainer">
                 {keys.map((number) =>
                 <button key={number}
-                value={number} onClick={()=>{this.props.setKey({number})}}>{number}
-                </button> )}
+                value={number} onClick={()=>{this.props.setKey({number})}}>{number}</button>)}
                 <br></br>
                 <button value={''} onClick={this.props.resetKey}>cls</button>
             </div>

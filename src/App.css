@@ -3,12 +3,10 @@
 
 }
 
-
 .displayKey p{
   text-align: center;
   background-color: rgb(2, 250, 176);
 }
-
 .screen{
   float: right;
   width: 400px;
